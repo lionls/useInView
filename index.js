@@ -1,3 +1,4 @@
+"use strict";
 const react = require("react");
 const useEffect = react.useEffect;
 const useState = react.useState;
