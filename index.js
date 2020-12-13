@@ -1,6 +1,8 @@
 'use strict';
-import {useEffect, useState} from 'react';
-import throttle from 'lodash.throttle';
+const react = require('react');
+const useEffect = react.useEffect;
+const useState = react.useState;
+const throttle = require('lodash.throttle');
 
 module.exports = (offset = 0) => {
 	const [ref, setRef] = useState(null);
