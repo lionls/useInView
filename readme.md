@@ -1,4 +1,6 @@
-## useInView
+## useInView - next.js
+
+BUGFIX - for next.js 
 
 Check if your component is in viewport using this simple hook!
 
